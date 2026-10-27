@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Aplikasi E-Commerce Sembako",
+    "kategori": "Web",
+    "teknologi": "React, Node.js, MongDB",
+    "tahun": 2025,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "2",
+    "judul": "Sistem Informasi Manajemen Rumah Sakit",
+    "kategori": "Web",
+    "teknologi": "Laravel, MySQL, Bootstrap",
+    "tahun": 2024,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "3",
+    "judul": "Aplikasi Pelacak Kebugaran Harian",
+    "kategori": "Mobile",
+    "teknologi": "Flutter, Firebase",
+    "tahun": 2026,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "4",
+    "judul": "Analisis Prediksi Churn Pelanggan",
+    "kategori": "Data",
+    "teknologi": "Python, Pandas, Scikit-Learn",
+    "tahun": 2025,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "5",
+    "judul": "Redesign UI/UX Aplikasi Dompet Digital",
+    "kategori": "Desain",
+    "teknologi": "Figma, Adobe XD",
+    "tahun": 2024,
+    "tautan": "https://behance.net"
+  },
+  {
+    "id": "6",
+    "judul": "Platform Pembelajaran Online Sekolah",
+    "kategori": "Web",
+    "teknologi": "Vue.js, Express, PostgreSQL",
+    "tahun": 2025,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "7",
+    "judul": "Aplikasi Pengingat Jadwal Kuliah",
+    "kategori": "Mobile",
+    "teknologi": "React Native, SQLite",
+    "tahun": 2026,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "8",
+    "judul": "Visualisasi Data Penyebaran Stunting",
+    "kategori": "Data",
+    "teknologi": "Tableau, Python, R",
+    "tahun": 2025,
+    "tautan": "https://tableau.com"
+  },
+  {
+    "id": "9",
+    "judul": "Sistem Kasir Minimarket Berbasis Desktop",
+    "kategori": "Desktop",
+    "teknologi": "Java, JavaFX, MySQL",
+    "tahun": 2023,
+    "tautan": "https://github.com"
+  },
+  {
+    "id": "10",
+    "judul": "Website Portofolio Fotografi Kreatif",
+    "kategori": "Web",
+    "teknologi": "HTML, Tailwind CSS, JavaScript",
+    "tahun": 2026,
+    "tautan": "https://github.com"
   }
 ]
