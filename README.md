@@ -34,7 +34,7 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 3. Clone fork, kerjakan soal di folder `app/`:
 
    ```bash
-   git clone https://github.com/USERNAME/uts-paw.git
+   git clone https://github.com/EagleEyes-cyber/uts-paw.git
    cd uts-paw/app
    npm install
    npm run dev
@@ -65,17 +65,22 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Jova Pratama Nihanda
+NIM: 124140019
+Kelas: RA
+Tema: Portofolio Proyek
+Deployment: https://EagleEyes-cyber.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
-- ...
+- Beranda dengan ringkasan jumlah proyek dan kategori
+- Daftar proyek (`/koleksi`) dimuat dengan `fetch`, dilengkapi pencarian judul
+- Detail proyek (`/koleksi/:id`) dengan field Teknologi, Tahun, dan Tautan, serta tombol Hapus
+- Form tambah proyek (`/tambah`) dengan validasi judul, disimpan ke localStorage
+- Statistik jumlah proyek per kategori dalam tabel (`/statistik`)
+- Halaman Tentang dan halaman 404
 
 ## Menjalankan secara lokal
 
@@ -85,5 +90,9 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- `useState` dan `useEffect`
+- Context API dan custom hook
+- React Router
+- Komponen terpisah di `src/components`
+- Vitest + Testing Library
 ```
