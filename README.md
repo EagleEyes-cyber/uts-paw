@@ -62,16 +62,17 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
-# Nama Aplikasi
+# Portofolio Proyek
 
-Nama: Jova Pratama Nihanda
-NIM: 124140019
-Kelas: RA
-Tema: Portofolio Proyek
-Deployment: https://EagleEyes-cyber.github.io/uts-paw/
+- **Nama:** Jova Pratama Nihanda
+- **NIM:** 124140019
+- **Kelas:** RA
+- **Tema:** Portofolio Proyek
+- **Deployment:** https://eagleeyes-cyber.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
+
+Aplikasi React untuk mendata proyek pribadi (judul, kategori, teknologi, tahun, tautan).
 
 ## Fitur
 
@@ -84,9 +85,11 @@ Deployment: https://EagleEyes-cyber.github.io/uts-paw/
 
 ## Menjalankan secara lokal
 
+```bash
 cd app
 npm install
 npm run dev
+```
 
 ## Konsep React yang dipakai
 
@@ -95,4 +98,3 @@ npm run dev
 - React Router
 - Komponen terpisah di `src/components`
 - Vitest + Testing Library
-```
